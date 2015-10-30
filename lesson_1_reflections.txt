@@ -1,0 +1,30 @@
+<How did viewing a diff between two versions of a file help you see the bug that was introduced?>
+It very clearly showed the areas of the code that had any changes.
+At that point it is easy to see what the changes are and if they countain any bugs.
+
+<How could having easy access to the entire history of a file make you a more efficient programmer
+in the long term?>
+It could mitigate large mistakes or misteps by quickly being able to revert to older, working code.
+
+<What do you think are the pros and cons of manually choosing when to create a commit,
+like you do in Git, vs having versions automatically saved, like Google Docs does?>
+The pros of manual commits are that you can create meaningful versions, aiding future development.
+The cons include human error, where too few or too many commits are made, complicating the
+ease of future development. What if I forget to commit after working for a long time? I won't have
+a finely granular history of what I did to look back on if problems arise.
+
+<Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each files seperately?>
+Often coded files work in tandem, with one file discretely affecting another.
+Version control schemes like Git ensure that with each commit, all files will stay in working sync.
+Version control schemes like Google Docs are typically not inter-related and have no such need.
+
+<How can you use the commands git log and git diff to view the history of files?>
+git log will output a lsit of commit IDs and notes.
+git diff will output the lines which are different between two given commit IDs
+
+<How might using version control make you more confident to make chages that could break something?>
+Making a leap into a new section or feature can be totally reversed it ends up going terribly!
+
+<Now that you have your workspace set up, what do you want to try using Git for?>
+Since I'm stying frontend web development, I'd want to try to move projects into a repository.
+
