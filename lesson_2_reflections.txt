@@ -16,3 +16,7 @@ How would branches help?>
 Branches are useful when an your project needs to take a new direction,
 like adding a new language or a new experimental feature.
 Using branches helps to organize your commits in case a new feature didn't work out how you wanted.
+
+<How do the diagrams help you visualize the branch structure?>
+They help see where your current commit is relative to the rest of the project. It could get
+confusing quickly if there are mulitple branches. Diagrams help see the reachability of commits.
