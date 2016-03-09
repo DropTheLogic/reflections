@@ -20,3 +20,13 @@ Using branches helps to organize your commits in case a new feature didn't work 
 <How do the diagrams help you visualize the branch structure?>
 They help see where your current commit is relative to the rest of the project. It could get
 confusing quickly if there are mulitple branches. Diagrams help see the reachability of commits.
+
+<What is the result of merging two branches together? Why do we represent it in the diagram the way we do?>
+Merging two branches folds one branch into another, so that all the commits are reachable from
+one single branch. Diagramming them can help show the relativity of each commit.
+
+<What are the pros and cons of Gits automatic merging vs. always doing merges manually?>
+The pro of Gits merging is that it is able to automatically merge branches to keep commits
+easily reachable. The cons are that whenever the same areas of different branches are affected,
+detective work must be done to resolve the nature of the differences, then manually reconciling them
+before the actual merge commit can be made.
