@@ -1,0 +1,3 @@
+<When would you want to use a remote repository rather than keeping all your work local?>
+It could be useful when working with others so that they could immediately get to working
+on them. Also if a small file needed to be added to an otherwise complete piece of work.
