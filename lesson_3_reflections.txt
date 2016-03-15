@@ -12,3 +12,8 @@ A fork is a clone that happens on entirely on GitHub's servers. A new branch wou
 to ingtroduce a new feature or direction for a project. A clone would happen if you wanted to move
 an entire repository somewhere or between people. And a fork would happen on GitHub if you wanted to
 collabororate, contribute, or share a repository on GitHub.
+
+<What is the benefit of having a copy of the last known state of the remote stored locally?>
+When collaborating with others, it is useful to know when people are working on other features or
+are making new commits. Having the most recent state of the project locally helps keep track of where
+others are while you are working.
