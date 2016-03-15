@@ -5,3 +5,10 @@ on them. Also if a small file needed to be added to an otherwise complete piece 
 <Why might you want to always pull changes manually rather than having Git automatically stay up to date with your remote repository?>
 It could be that you aren't ready to share the change you are working on, especially when colaborating.
 It could also be like commits, where you decide when a completed piece of work is done.
+
+<Describe the differences between forks, clones, and branches. When do you use one instead of another?>
+Branches are simply the path of commits in a repository. A clone copies an entire repository, including any branches.
+A fork is a clone that happens on entirely on GitHub's servers. A new branch would occur when you want
+to ingtroduce a new feature or direction for a project. A clone would happen if you wanted to move
+an entire repository somewhere or between people. And a fork would happen on GitHub if you wanted to
+collabororate, contribute, or share a repository on GitHub.
