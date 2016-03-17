@@ -17,3 +17,11 @@ collabororate, contribute, or share a repository on GitHub.
 When collaborating with others, it is useful to know when people are working on other features or
 are making new commits. Having the most recent state of the project locally helps keep track of where
 others are while you are working.
+
+<How would you collaborate without using Git or GitHub? What would be easier and what would be harder?>
+Without using Git or GitHub, cloud sharing would allow a team to work on projects by sharing files.
+Google Docs/Apps and Dropbox would give everyone synced copies of the same files. However, while those
+services do track previous versions of files, they wouldn't allow to roll back changes to specific
+commit points. Furthermore, they also currently lack the tools to look at line-by-line changes, and
+for two people to work from the same file at the same time and reconsile/merge the changes into a
+new finished file.
