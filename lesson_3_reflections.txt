@@ -3,15 +3,15 @@ It could be useful when working with others so that they could immediately get t
 on them. Also if a small file needed to be added to an otherwise complete piece of work.
 
 <Why might you want to always pull changes manually rather than having Git automatically stay up to date with your remote repository?>
-It could be that you aren't ready to share the change you are working on, especially when colaborating.
+It could be that you aren't ready to share the change you are working on, especially when collaborating.
 It could also be like commits, where you decide when a completed piece of work is done.
 
 <Describe the differences between forks, clones, and branches. When do you use one instead of another?>
 Branches are simply the path of commits in a repository. A clone copies an entire repository, including any branches.
 A fork is a clone that happens on entirely on GitHub's servers. A new branch would occur when you want
-to ingtroduce a new feature or direction for a project. A clone would happen if you wanted to move
+to introduce a new feature or direction for a project. A clone would happen if you wanted to move
 an entire repository somewhere or between people. And a fork would happen on GitHub if you wanted to
-collabororate, contribute, or share a repository on GitHub.
+collaborate, contribute, or share a repository on GitHub.
 
 <What is the benefit of having a copy of the last known state of the remote stored locally?>
 When collaborating with others, it is useful to know when people are working on other features or
@@ -23,5 +23,12 @@ Without using Git or GitHub, cloud sharing would allow a team to work on project
 Google Docs/Apps and Dropbox would give everyone synced copies of the same files. However, while those
 services do track previous versions of files, they wouldn't allow to roll back changes to specific
 commit points. Furthermore, they also currently lack the tools to look at line-by-line changes, and
-for two people to work from the same file at the same time and reconsile/merge the changes into a
+for two people to work from the same file at the same time and reconcile/merge the changes into a
 new finished file.
+
+<When would you want to make changes in a separate branch rather than directly in master?
+What benefits does each approach have?>
+When collaborating on a separate or experimental feature of a project, it may be useful to work in
+a separate branch than master. That way multiple people can collaborate on the same feature without
+disrupting the master branch's stability. If working alone, or on a small project, additional branches
+might be more time-consuming than beneficial.
